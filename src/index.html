@@ -1,92 +1,267 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Resume</title>
-
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Resume: Blessing</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="crossorigin" />
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&amp;family=Roboto:wght@300;400;500;700&amp;display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&amp;family=Roboto:wght@300;400;500;700&amp;display=swap" media="print" onload="this.media='all'" />
+    <noscript>
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&amp;family=Roboto:wght@300;400;500;700&amp;display=swap"/>
+    </noscript>
+    <link href="css/font-awesome/css/all.min.css?ver=1.2.1" rel="stylesheet">
+    <link href="css/mdb.min.css?ver=1.2.1" rel="stylesheet">
+    <link href="css/aos.css?ver=1.2.1" rel="stylesheet">
+    <link href="css/main.css?ver=1.2.1" rel="stylesheet">
+    <noscript>
+      <style type="text/css">
+        [data-aos] {
+            opacity: 1 !important;
+            transform: translate(0) scale(1) !important;
+        }
+      </style>
+    </noscript>
 </head>
 
-<body>
-    <main>
-        <article class="box">
-            <h1>Blessing Kashava</h1>
-            <div><a href="mailto:Blessing.Kashava@studentambassadors.com">Blessing.Kashava@studentambassadors.com</a></div>
-
-            <section class="box">
-                <h2>
-                    <i class="fa fa-bullhorn" aria-hidden="true"></i> Social media
-                </h2>
-                <ul>
-                    <li><a href="https://github.com/blessing-mufaro">@blessing-mufaro</a></li>
-                    <li><a href="https://linkedin.com/in/blessing-mufaro-kashava">blessing-mufaro-kashava</a></li>
-                    <li><a href="https://twitter.com/blessing_mufaro">blessing_mufaro</a></li>
-                </ul>
-            </section>
-
-            <section class="box">
-                <div class="education">
-                    <h2>
-                        <i class="fa fa-certificate" aria-hidden="true"></i> Harare Institute of Technology
-                    </h2>
-                    <h3>B.Tech (Hons) Information Security and Assurance</h3>
-                    <ul>
-                        <li>GPA: 3.0</li>
-                        <li>Years: 2020 - 2024</li>
-                    </ul>
+<body class="bg-light" id="top">
+    <header class="d-print-none">
+        <div class="container text-center text-lg-left">
+            <div class="pt-4 clearfix">
+                <h1 class="site-title mb-0">Blessing Mufaro Kashava</h1>
+                <div class="site-nav">
+                    <nav role="navigation">
+                        <ul class="nav justify-content-center">
+                            <li class="nav-item"><a class="nav-link" href="#about" title="About"><span class="menu-title">About</span></a>
+                            </li>
+                            <li class="nav-item"><a class="nav-link" href="#experience" title="Experience"><span class="menu-title">Experience</span></a>
+                            </li>
+                            <li class="nav-item"><a class="nav-link" href="#education" title="Education"><span class="menu-title">Education</span></a>
+                            </li>
+                            <li class="nav-item"><a class="nav-link" href="#portfolio" title="Portfolio"><span class="menu-title">Portfolio</span></a>
+                            </li>
+                            <li class="nav-item"><a class="nav-link" href="#contact" title="Contact"><span class="menu-title">Contact</span></a>
+                            </li>
+                        </ul>
+                    </nav>
                 </div>
-            </section>
-
-            <section class="box">
-                <h2>
-                    <i class="fa fa-check" aria-hidden="true"></i> Skills
-                </h2>
-                <ul>
-                    <li>CSS</li>
-                    <li>HTML</li>
-                    <li>JavaScript</li>
-                    <li>Git</li>
-                    <li>Visual Studio Code</li>
-                </ul>
-            </section>
-        </article>
-        <article class="box">
-            <section class="box">
-                <h2>
-                    <i class="fa fa-briefcase" aria-hidden="true"></i> Experience
-                </h2>
-                <h3>Microsoft Learn Student Ambassador</h3>
-            </section>
-            <section class="box">
-                <h2>
-                    <i class="fa fa-building" aria-hidden="true"></i> Internships
-                </h2>
-
-                <h3>Baker Tilly Central Africa</h3>
-                <ul>
-                    <li>Technology Risk Analyst</li>
-                    <li>CEH CERT</li>
-                </ul>
-            </section>
-            <section class="box">
-                <h2>
-                    <i class="fa fa-cubes" aria-hidden="true"></i> Projects
-                </h2>
-
-                <h3>Patient Records Management System</h3>
-                <div>Group project (sophomore capstone)</div>
-                <ul>
-                    <li>Used js</li>
-                    <li>Credit Pass</li>
-                </ul>
-            </section>
-        </article>
-
-    </main>
+            </div>
+        </div>
+    </header>
+    <div class="page-content">
+        <div class="container">
+            <div class="resume-container">
+                <div class="shadow-1-strong bg-white my-5" id="intro">
+                    <div class="bg-info text-white">
+                        <div class="cover bg-image"><img src="images\pexels-markus-spiske-2061168.jpg" />
+                            <div class="mask" style="background-color: rgba(0, 0, 0, 0.7);backdrop-filter: blur(2px);">
+                                <div class="text-center p-5">
+                                    <div class="avatar p-1"><img class="img-thumbnail shadow-2-strong" src="images\avatar.JPG" width="160" height="160" /></div>
+                                    <div class="header-bio mt-3">
+                                        <div data-aos="zoom-in" data-aos-delay="0">
+                                            <h2 class="h1">Blessing Mufaro Kashava</h2>
+                                            <p>Cyber Security | Technical Writing | Web Development</p>
+                                        </div>
+                                        <div class="header-social mb-3 d-print-none" data-aos="zoom-in" data-aos-delay="200">
+                                            <nav role="navigation">
+                                                <ul class="nav justify-content-center">
+                                                    <li class="nav-item"><a class="nav-link" href="https://twitter.com/blessing_mufaro" title="Twitter"><i class="fab fa-twitter"></i><span class="menu-title sr-only">Twitter</span></a>
+                                                    </li>
+                                                    <li class="nav-item"><a class="nav-link" href="https://www.linkedin.com/in/blessing-mufaro-kashava" title="LinkedIn"><i class="fab fa-linkedin"></i><span class="menu-title sr-only">LinkedIn</span></a>
+                                                    </li>
+                                                    <li class="nav-item"><a class="nav-link" href="https://www.instagram.com/guy_stash" title="Instagram"><i class="fab fa-instagram"></i><span class="menu-title sr-only">Instagram</span></a>
+                                                    </li>
+                                                    <li class="nav-item"><a class="nav-link" href="https://github.com/blessing-mufaro" title="Github"><i class="fab fa-github"></i><span class="menu-title sr-only">Github</span></a>
+                                                    </li>
+                                                </ul>
+                                            </nav>
+                                        </div>
+                                        <div class="d-print-none"><a class="btn btn-outline-light btn-lg shadow-sm mt-1 me-3" href="https://drive.google.com/file/d/1Oov3gUa_PrMbEE-MlTf8ST9k5NUs_zSZ/view?usp=sharing" data-aos="fade-right" data-aos-delay="700">Download CV</a>
+                                            <a class="btn btn-info btn-lg shadow-sm mt-1" href="#contact" data-aos="fade-left" data-aos-delay="700">Hire Me</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="shadow-1-strong bg-white my-5 p-5" id="about">
+                    <div class="about-section">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <h2 class="h2 fw-light mb-4">About Me</h2>
+                                <p>Hello! I’m Blessing Kashava. I am passionate about Cyber Security. I am a current an Intern with the role of Technology Risk Analyst at Baker Tilly Central Africa. I am enthusiastic about ethical hacking, web development,
+                                    artificial intelligence and technical writing. I am good at adapting to different work environments and I'm a team player that gets the job done.</p>
+                                <p>I'm big on community building so I joined the Github Campus Experts and Microsoft Learn Student Ambassadors programs to follow my passion.</p>
+                            </div>
+                            <div class="col-md-5 offset-lg-1">
+                                <div class="row mt-2">
+                                    <h2 class="h2 fw-light mb-4">Bio</h2>
+                                    <div class="col-sm-5">
+                                        <div class="pb-2 fw-bolder"><i class="far fa-calendar-alt pe-2 text-muted" style="width:24px;opacity:0.85;"></i> Age</div>
+                                    </div>
+                                    <div class="col-sm-7">
+                                        <div class="pb-2">21</div>
+                                    </div>
+                                    <div class="col-sm-5">
+                                        <div class="pb-2 fw-bolder"><i class="far fa-envelope pe-2 text-muted" style="width:24px;opacity:0.85;"></i> Email</div>
+                                    </div>
+                                    <div class="col-sm-7">
+                                        <div class="pb-2">mufarokashava@gmail.com</div>
+                                    </div>
+                                    <div class="col-sm-5">
+                                        <div class="pb-2 fw-bolder"><i class="fas fa-phone pe-2 text-muted" style="width:24px;opacity:0.85;"></i> Phone</div>
+                                    </div>
+                                    <div class="col-sm-7">
+                                        <div class="pb-2">+263-77-483-6695</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="shadow-1-strong bg-white my-5 p-5" id="experience">
+                    <div class="work-experience-section">
+                        <h2 class="h2 fw-light mb-4">Work Experience</h2>
+                        <div class="timeline">
+                            <div class="timeline-card timeline-card-info" data-aos="fade-in" data-aos-delay="0">
+                                <div class="timeline-head px-4 pt-3">
+                                    <div class="h5">Technology Risk Analyst <span class="text-muted h6">at Baker Tilly Central Africa</span></div>
+                                </div>
+                                <div class="timeline-body px-4 pb-4">
+                                    <div class="text-muted text-small mb-3">February, 2022 - Present</div>
+                                    <div>Participating in the deployment, integration and configuration of new security solutions for clients. Conducting vulnerability assessments and penetration tests to ensure system security functionality. </div>
+                                </div>
+                            </div>
+                            <div class="timeline-card timeline-card-info" data-aos="fade-in" data-aos-delay="200">
+                                <div class="timeline-head px-4 pt-3">
+                                    <div class="h5">Microsoft Learn Student Ambassador <span class="text-muted h6">at Microsoft</span></div>
+                                </div>
+                                <div class="timeline-body px-4 pb-4">
+                                    <div class="text-muted text-small mb-3">April, 2022 - Present</div>
+                                    <div>Learn Student Ambassadors are a global group of campus leaders eager to help fellow students create robust tech communities and develop technical and career skills for the future.</div>
+                                </div>
+                            </div>
+                            <div class="timeline-card timeline-card-info" data-aos="fade-in" data-aos-delay="400">
+                                <div class="timeline-head px-4 pt-3">
+                                    <div class="h5">Github Campus Expert<span class="text-muted h6"> at Github Education</span></div>
+                                </div>
+                                <div class="timeline-body px-4 pb-4">
+                                    <div class="text-muted text-small mb-3">April, 2022 - Present</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="shadow-1-strong bg-white my-5 p-5" id="education">
+                    <div class="education-section">
+                        <h2 class="h2 fw-light mb-4">Education</h2>
+                        <div class="timeline">
+                            <div class="timeline-card timeline-card-success" data-aos="fade-in" data-aos-delay="0">
+                                <div class="timeline-head px-4 pt-3">
+                                    <div class="h5">Bachelor of Technology (with Honors) in Information Security and Assurance <span class="text-muted h6">from Harare Institute of Technology</span> </div>
+                                </div>
+                                <div class="timeline-body px-4 pb-4">
+                                    <div class="text-muted text-small mb-3">2020 - 2024</div>
+                                    <div>Utilization of modern security solutions to implement management and protection of information, knowledge and data surrounding Information Systems. Encompasses cyber security - risk management, ethical hacking, IT auditing,
+                                        digital forensics, network security and cryptography.</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="shadow-1-strong bg-white my-5 p-5 d-print-none" id="portfolio">
+                    <div class="portfolio-section">
+                        <h2 class="h2 fw-light mb-4">Portfolio</h2>
+                        <div class="row g-0">
+                            <div class="col-md-6">
+                                <a href="http://www.tzperspective.com/index.php/author/blessing/" target="_blank"><img class="img-fluid" src="images\tzp2.png" width="800" height="500" /></a>
+                            </div>
+                            <div class="col-md-6 d-flex align-items-center" data-aos="fade-left" data-aos-delay="100">
+                                <div class="m-4 mt-md-2">
+                                    <p class="text-teal text-small"> Tech Blog </p>
+                                    <h3>The Zimbabwean Perspective</h3>
+                                    <p class="text-muted">On this weblog I write about tech that surrounds Zimbabwean citizens and how it affects their lives</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row g-0 portfolio-reverse">
+                            <div class="col-md-6 d-flex align-items-center" data-aos="fade-right" data-aos-delay="100">
+                                <div class="m-4 mt-md-2 text-end">
+                                    <p class="text-teal text-small"> Tech Blog </p>
+                                    <h3>Blessing's Tech Blog</h3>
+                                    <p class="text-muted">For articles on cyber security, artificial intelligence and native programming.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <a href="https://blessingmufaro.me/" target="_blank"><img class="img-fluid" src="images\Blog Banner.png" width="800" height="500" /></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="shadow-1-strong bg-white my-5 p-5" id="contact">
+                    <div class="contant-section">
+                        <h2 class="h2 fw-light text mb-4">Contact</h2>
+                        <div class="row mb-4">
+                            <div class="col-md-5" data-aos="fade-left" data-aos-delay="200">
+                                <div class="mt-1">
+                                    <div class="h6"><i class="fas fa-phone pe-2 text-muted" style="width:24px;opacity:0.85;"></i> +263-77-483-6695</div>
+                                    <div class="h6"><i class="far fa-envelope pe-2 text-muted" style="width:24px;opacity:0.85;"></i> mufarokashava@gmail.com</div>
+                                </div>
+                                <div class="mt-5 d-print-none">
+                                    <form action="https://formspree.io/mufarokashava@gmail.com" method="POST">
+                                        <div class="form-outline mb-4">
+                                            <input type="text" id="name" class="form-control" required/>
+                                            <label class="form-label" for="name">Name</label>
+                                        </div>
+                                        <div class="form-outline mb-4">
+                                            <input type="email" id="email" class="form-control" required/>
+                                            <label class="form-label" for="email">Email address</label>
+                                        </div>
+                                        <div class="form-outline mb-4">
+                                            <textarea class="form-control" style="resize: none;" id="message" rows="4" required></textarea>
+                                            <label class="form-label" for="message">Message</label>
+                                        </div>
+                                        <button class="btn btn-info btn-block mb-4" type="submit">Send</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="pt-4 pb-4 text-muted text-center d-print-none">
+        <div class="container">
+            <div class="my-3">
+                <div class="h4">Blessing Mufaro Kashava</div>
+                <div class="footer-nav">
+                    <nav role="navigation">
+                        <ul class="nav justify-content-center">
+                            <li class="nav-item"><a class="nav-link" href="https://twitter.com/blessing_mufaro" title="Twitter"><i class="fab fa-twitter"></i><span class="menu-title sr-only">Twitter</span></a>
+                            </li>
+                            <li class="nav-item"><a class="nav-link" href="https://www.linkedin.com/in/blessing-mufaro-kashava" title="LinkedIn"><i class="fab fa-linkedin"></i><span class="menu-title sr-only">LinkedIn</span></a>
+                            </li>
+                            <li class="nav-item"><a class="nav-link" href="https://www.instagram.com/guy_stash" title="Instagram"><i class="fab fa-instagram"></i><span class="menu-title sr-only">Instagram</span></a>
+                            </li>
+                            <li class="nav-item"><a class="nav-link" href="https://github.com/blessing_mufaro" title="Github"><i class="fab fa-github"></i><span class="menu-title sr-only">Github</span></a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <div class="text-small">
+                <div class="mb-1">&copy; Blessing's Resume. All rights reserved.</div>
+                <div>Design - <a href="https://templateflip.com/" target="_blank">TemplateFlip</a></div>
+            </div>
+        </div>
+    </footer>
+    <script src="scripts/mdb.min.js?ver=1.2.1"></script>
+    <script src="scripts/aos.js?ver=1.2.1"></script>
+    <script src="scripts/main.js?ver=1.2.1"></script>
 </body>
 
 </html>
